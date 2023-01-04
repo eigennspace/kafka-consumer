@@ -14,5 +14,6 @@ public class HelloKafkaConsumer {
     @KafkaListener(topics = "t-hello")
     public void consume(String message){
         LOG.info("Consume : {}", message);
+        System.out.println(message);
     }
 }
