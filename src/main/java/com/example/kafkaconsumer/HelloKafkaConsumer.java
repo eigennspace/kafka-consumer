@@ -15,5 +15,6 @@ public class HelloKafkaConsumer {
     public void consume(String message){
         LOG.info("Consume : {}", message);
         System.out.println(message);
+        System.out.println(message);
     }
 }
